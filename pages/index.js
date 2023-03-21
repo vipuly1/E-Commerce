@@ -2,7 +2,7 @@ import React from 'react'
 import {FooterBanner,Product, HeroBanner} from "../components"
 import {client} from "../lib/client"
 const Home = ({products, bannerData}) => {
-
+  console.log(products)
   return (
     <div>
       <HeroBanner heroBanner={bannerData[0]}/>
